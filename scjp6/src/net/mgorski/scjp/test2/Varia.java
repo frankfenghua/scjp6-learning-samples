@@ -41,15 +41,15 @@ public class Varia {
         Short bigX = new Short("32767");
         
 //        test(1,1);// will not compile
-        test(); // this will work !
-        test(x);
-        test(x,x);
-        test(bigX);
-        test(bigX, x);
+//        test(); // this will work !
+//        test(x);
+//        test(x,x);
+//        test(bigX);
+//        test(bigX, x);
 //        test(null, bigX, bigX); // not
-        test ((short) 1, (short) 44, bigX.shortValue(), bigX, x);
-        test("");
-        test(new Serializable(){});
+//        test ((short) 1, (short) 44, bigX.shortValue(), bigX, x);
+//        test("");
+//        test(new Serializable(){});
         
         long buffer=1024;
         int in = Integer.valueOf(1);
